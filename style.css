@@ -14,12 +14,31 @@ body {
     width: 500px;
     height: 600px;
     background-color: rgba(0, 0, 0, 0.8);
-    margin: auto;
-    width: 50%;
-    color: whitesmoke;
+    margin-left: 100px;
     padding: 10px;
     border-radius: 5px;
-    margin-top: 10px;
+    margin-top: 15px;
+    color: whitesmoke;
+    
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 200%;
+    width: 60%;
+   
+    
+    
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 19%;
+    border: 0;
     
 }
 
@@ -127,18 +146,41 @@ body {
     }
 
     .Boxabout{
-        font-size: 20px;
-        width: 200px;
-        height: 500px;
+        font-size: 15px;
+        
+        height: 490px;
         background-color: rgba(0, 0, 0, 0.8);
         margin: auto;
-        width: 50%;
+        width: 80%;
         color: whitesmoke;
-        padding: 70px;
+        padding: 30px;
         padding-top: 10px;
         margin-bottom: 10px;
         border-radius: 5px;
         margin-top: 10px;
         
     }
+
+}
+
+.resp-container {
+    position: relative;
+    overflow: hidden;
+    padding-top: 200%;
+    width: 180%;
+    margin-left:25px;
+   
+    
+    
+}
+
+.resp-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 50%;
+    border: 0;
+    
+}
 }
