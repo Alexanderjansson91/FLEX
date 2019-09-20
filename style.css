@@ -26,10 +26,22 @@ body {
 }
 
 .spottan{ 
-    max-width: 10vh;
-    float:auto;
+    max-width: 7vh;
+    position: absolute;
+    right: 50px;
+    bottom: 30px;
 
 }
+
+.insta{ 
+    max-width: 6vh;
+    position: absolute;
+    right: 110px;
+    bottom: 29px;
+
+}
+
+
 .navbar {
     width: 100%;
     background: black;
@@ -164,6 +176,22 @@ body {
         border-radius: 5px;
         margin-top: 10px;
         
+    }
+
+    .spottan{ 
+        max-width: 7vh;
+        position: absolute;
+        right: 10px;
+        bottom: 30px;
+    
+    }
+    
+    .insta{ 
+        max-width: 6vh;
+        position: absolute;
+        right: 60px;
+        bottom: 30px;
+    
     }
 
 
